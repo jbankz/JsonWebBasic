@@ -1,0 +1,29 @@
+{
+  "name": "jwebtoken",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "stage": "ts-node-dev --respawn --transpile-only app.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "@types/jsonwebtoken": "^8.5.6",
+    "@types/node": "^17.0.5"
+  },
+  "dependencies": {
+    "dayjs": "^1.10.7",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "express-async-errors": "^3.1.1",
+    "http-status-codes": "^2.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.4",
+    "pino": "^7.6.2",
+    "pino-pretty": "^7.3.0",
+    "ts-node-dev": "^1.1.8"
+  }
+}
